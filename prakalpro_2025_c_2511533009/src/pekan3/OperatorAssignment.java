@@ -8,7 +8,7 @@ public class OperatorAssignment {
         int A2;
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Input angka-1: ");
-        A1 = keyboard.nextInt(); //Inut 10
+        A1 = keyboard.nextInt(); //Input 10
         System.out.println("Input angka-2:");
         A2 = keyboard.nextInt();
         keyboard.close();// Input 5

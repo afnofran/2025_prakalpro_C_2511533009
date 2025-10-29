@@ -11,6 +11,7 @@ public class nestedFor1_2511533009 {
 			System.out.println();
 			// to end the line
 		}
+		
 
 	}
 

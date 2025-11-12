@@ -1,6 +1,6 @@
 package pekan7_2511533009;
 import java.util.Scanner;
-public class String2 {
+public class String2_2511533009 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

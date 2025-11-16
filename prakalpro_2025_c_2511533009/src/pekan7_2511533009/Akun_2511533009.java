@@ -36,6 +36,6 @@ public class Akun_2511533009 {
         return password.length()>=8;
     }
     public boolean isEmailValid(){
-        return email.contains("@") && email.contains(".") && !email.startsWith("@") || !email.startsWith(".");
+        return email.contains("@") && email.contains(".") && (!email.startsWith("@") || !email.startsWith("."));
     }
 }

@@ -42,7 +42,7 @@ public class tugasAlproPekan7_2511533009 {
                 System.out.println("PIN (String) + \"10\" =" + concat2);
             }else {
                 System.out.println("--- REGISTRASI GAGAL ---");
-                System.out.println("Email Anda \""+ akun.getUsername() +"\" tidak valid (harus mengandung '@' dan '.'.");
+                System.out.println("Email Anda \""+ akun.getUsername() +"\" tidak valid (harus mengandung '@' dan '.').");
                 System.out.println("Silakan coba lagi.");
             }
         }else {

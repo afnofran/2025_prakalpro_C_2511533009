@@ -2,7 +2,6 @@ package pekan7_2511533009;
 public class Akun_2511533009 {
     String username,password,email;
     int pinAngka;
-
     //SETTER
     public void setUsername(String username){
         this.username=username;

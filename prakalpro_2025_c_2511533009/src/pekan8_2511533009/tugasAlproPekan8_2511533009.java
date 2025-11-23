@@ -9,6 +9,7 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
@@ -25,6 +26,13 @@ public class tugasAlproPekan8_2511533009 extends JFrame {
 	/**
 	 * Launch the application.
 	 */
+	private void pesanPeringatan(String pesan) {
+		JOptionPane.showMessageDialog(this, pesan,"Peringatan",JOptionPane.WARNING_MESSAGE);
+	}
+	
+	private void PesanEror(String pesan) {
+		JOptionPane.showMessageDialog(this, pesan,"Kesalahan",JOptionPane.ERROR_MESSAGE);
+	}
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -101,9 +109,9 @@ public class tugasAlproPekan8_2511533009 extends JFrame {
 			boolean hasil;
 			public void actionPerformed(ActionEvent e) {
 				if(txtBil1.getText().trim().isEmpty()) {
-//					pesanPeringatan("Bilangan 1 harus diisi");int a= Integer.valueOf(txtBil1.getText());
+					pesanPeringatan("Bilangan 1 harus diisi");int a= Integer.valueOf(txtBil1.getText());
 				} else if(txtBil2.getText().trim().isEmpty()) {
-//					pesanPeringatan("Bilangan 2 harus diisi");
+					pesanPeringatan("Bilangan 2 harus diisi");
 				} else {
 					try {
 						int a= Integer.valueOf(txtBil1.getText());
@@ -129,7 +137,7 @@ public class tugasAlproPekan8_2511533009 extends JFrame {
 						}
 						txtHasil.setText(String.valueOf(hasil));
 					}catch(NumberFormatException ex) {
-						//PesanEror("Bilangan 1 dan Bilangan 2 harus angka");
+						PesanEror("Bilangan 1 dan Bilangan 2 harus angka");
 					}
 				}
 			}

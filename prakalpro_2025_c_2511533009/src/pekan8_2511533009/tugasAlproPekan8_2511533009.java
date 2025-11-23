@@ -50,6 +50,7 @@ public class tugasAlproPekan8_2511533009 extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
+		
 		JLabel lblNewLabel = new JLabel("OPERATOR RELASIONAL");
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setBounds(61, 10, 216, 12);

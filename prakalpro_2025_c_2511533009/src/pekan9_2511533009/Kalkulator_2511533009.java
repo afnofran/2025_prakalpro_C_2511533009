@@ -101,7 +101,7 @@ public class Kalkulator_2511533009 extends JFrame {
 				gabungkanAngka(0);
 			}
 		});
-		
+			
 		JButton tombol_3 = new JButton("+");
 		tombol_3.setBounds(242, 131, 75, 75);
 		contentPane.add(tombol_3);
